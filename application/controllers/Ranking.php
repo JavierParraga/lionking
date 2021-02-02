@@ -1,7 +1,7 @@
-<?php
-defined('BASEPATH') OR exit('No direct script access allowed');
 
-require APPPATH. '/libraries/REST_Controller.PHP';
+<?php
+require APPPATH . '/libraries/REST_Controller.php';
+
 class Ranking extends REST_Controller{
     public function __construct(){
         parent::__construct();
